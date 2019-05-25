@@ -5,8 +5,8 @@ class Greeting{
         greeting.classList.add('greeting');
 
         greeting.innerHTML = `
-        <h2>Welcome to the Match-Match game</h2>
-        <span> Rules of the game </span>
+        <h2>Selamat Datang Di Match-Match game</h2>
+        <span> Aturan Mainnya </span>
         <ol>
             <li>Misi Anda adalah menemukan pasangan kartu yang sama.</li>
             <li>Semua kartu dicampur dan diletakkan menghadap ke bawah. Balikkan dua kartu.

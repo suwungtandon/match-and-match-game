@@ -1,0 +1,96 @@
+.container{
+    display: block;
+    /*height: 900px;*/
+    /*background: #00ccff;*/
+    margin: 0 auto;
+    padding: 20px 40px 60px;
+    /*max-width: 960px;*/
+}
+.mainSelectButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.backgroundCards,
+.cardsNumber{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backgroundCards{
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+.cardsNumber{
+    position: absolute;
+    z-index: 1;
+}
+.backgroundCards li{
+    border: 3px solid #1c0477;;
+    background: #1c0477;;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+}
+.backgroundCards li img{
+    border-radius: 7px;
+}
+.cardsNumber li{
+    background-color: white;
+    color:#1c0477;;
+    border: 2px solid #1c0477;;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.cardsBg{
+    position: relative;
+}
+.hiddenCardsBg{
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+}
+.mainSelect{
+    padding: 5px 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    background-color:#1c0477;;
+    color: white;
+    margin-bottom: 10px;
+    display: inline-flex;
+    border-radius: 7px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 1s, color 1s;
+}
+.mainSelectButtons ul li{
+    transition: transform 1s;
+}
+.mainSelectButtons ul li:hover{
+    transform: scale(1.2);
+}
+.mainSelect:hover{
+    background-color: white;
+    color: #1c0477;;
+}
+.userName{
+    display: block;
+    margin: 5px auto;
+}
+.start{
+    display: inline-flex;
+    height: 50px;
+}
+.hidden{
+    display:none;
+}

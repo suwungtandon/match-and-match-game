@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Match Match Game</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mainSelectButtons">
+            <div id="cardsBg">
+                <span class="mainSelect">Cards Wrapper</span>
+                <ul id="backgroundCards" class="backgroundCards hidden">
+                    <li><img src="img/bg1.jpg" alt="image"></li>
+                    <li><img src="img/bg2.jpg" alt="image"></li>
+                    <li><img src="img/bg3.jpg" alt="image"></li>
+                    <li><img src="img/bg4.jpg" alt="image"></li>
+                    <li><img src="img/bg5.jpg" alt="image"></li>
+                </ul>
+            </div>
+            <div id="difficulty">
+                <span class="mainSelect">Difficulty</span>
+                <ul id="cardsNumber" class="cardsNumber hidden">
+                    <li data-value = '4'>Simple 4*2</li>
+                    <li data-value = '8'>Medium 8*2</li>
+                    <li data-value = '10'>Hard 10*2</li>
+                    <li data-value = '12'>Unreal 12*2</li>
+                </ul>
+            </div>
+            <div id="timer"></div>
+            <button id="start" class="mainSelect start untouchable">Start new game</button>
+        </div>
+        <div id="userInfo" class="userInfo"></div>
+        <div id="cardContainer" class="container"></div>
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

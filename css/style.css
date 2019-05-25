@@ -1,0 +1,27 @@
+@import 'greeting.css';
+@import 'mainPage.css';
+@import 'user.css';
+@import 'game.css';
+@import 'timer.css';
+*{
+    transition: all 1s;
+}
+body{
+    background-color: #6589F9;
+    color: #1c0477;
+    font-family: Gabriola;
+}
+.wrapper{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.untouchable{
+    pointer-events: none;
+    background: grey;
+}

@@ -1,2 +1,2 @@
 # match-and-match-game
-subject kkn
+subject kkn, small game education 

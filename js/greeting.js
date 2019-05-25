@@ -8,15 +8,15 @@ class Greeting{
         <h2>Welcome to the Match-Match game</h2>
         <span> Rules of the game </span>
         <ol>
-            <li>Your mission is to find pairs of the same cards.</li>
-            <li>All cards are mixed and layed face down. Turn over any two cards.
-            If the two cards match, you get points in the score and they are disappeard.
-            If they don't match, they are turn back.
-            <li>Remember what was on each card and where it was.
-            The game is over when all the cards have been matched.</li>
-            <li>The player with the fastest time wins .</li>
-            <li>To start tha game you have to chose the "Cards wrapper" , "Difficulty" and press "Next".
-             After saving information about the player tha button "Start game" will be active.
+            <li>Misi Anda adalah menemukan pasangan kartu yang sama.</li>
+            <li>Semua kartu dicampur dan diletakkan menghadap ke bawah. Balikkan dua kartu.
+            Jika kedua kartu cocok, Anda mendapatkan poin dalam skor dan kartunya akan menghilang.
+            Jika kartu tidak cocok, kartunya akan tetap pada posisi.
+            <li>Ingat apa yang ada di setiap kartu dan di mana posisi itu.
+            Permainan akan berakhir ketika semua kartu telah cocok.</li>
+            <li>Pemain dengan waktu tercepatakan menang.</li>
+            <li>Untuk memulai permainan, Anda harus memilih "Tema Kartu", "Kesulitan" dan klik "Next".
+             Setelah menyimpan informasi tentang pemain, tombol "Mulai permainan" akan aktif.
             <li>Have fun ang good luck!!!.</li>
         </ol>
         <button id="userLogin">Next</button>

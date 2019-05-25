@@ -32,7 +32,7 @@ class Greeting{
         congratulations.innerHTML = `
             <h2>Congratulation, ${user}!!!!</h2>
             <p> Your time is : ${time}</p>
-            <button class="score" id="tableScore">Show table score</button>
+            <button class="score" id="tableScore">Lihat Skor Saya</button>
         `
         container.appendChild(congratulations);
 
